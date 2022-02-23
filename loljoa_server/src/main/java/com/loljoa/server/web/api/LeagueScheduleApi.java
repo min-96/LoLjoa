@@ -1,12 +1,8 @@
 package com.loljoa.server.web.api;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.loljoa.server.db.dto.LeagueScheduleDto;
-import com.loljoa.server.web.dto.leagueSchedule.FullLeagueDto;
 import com.loljoa.server.web.dto.leagueSchedule.FullLeagueScheduleDto;
 import com.loljoa.server.web.dto.leagueSchedule.ScheduleDto;
 import com.loljoa.server.web.service.LeagueScheduleService;
-import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
