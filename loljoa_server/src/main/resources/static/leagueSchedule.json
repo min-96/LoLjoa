@@ -1,0 +1,63 @@
+{
+  "leagues": [
+    {
+      "category": "lck",
+      "schedules": [
+        {
+          "leagueName": "Kt Rolster vs Freecs",
+          "startTime": "2022-02-23 05:00",
+          "endTime": "2022-02-23 08:00"
+        }, {
+          "leagueName": "T1 vs Damwon",
+          "startTime": "2022-02-23 08:00",
+          "endTime": "2022-02-23 11:00"
+        }, {
+          "leagueName": "Brion Blade vs DRX",
+          "startTime": "2022-02-24 05:00",
+          "endTime": "2022-02-23 08:00"
+        }, {
+          "leagueName": "SANDBOX vs Hanwha Life Esports",
+          "startTime": "2022-02-24 08:00",
+          "endTime": "2022-02-23 11:00"
+        }, {
+          "leagueName": "Gen.G vs NS RedForce",
+          "startTime": "2022-02-25 05:00",
+          "endTime": "2022-02-23 08:00"
+        }, {
+          "leagueName": "Freecs vs Damwon",
+          "startTime": "2022-02-25 08:00",
+          "endTime": "2022-02-23 11:00"
+        }
+      ]
+    }, {
+      "category": "자낳대",
+      "schedules": [
+        {
+          "leagueName": "ASK vs 댄스동아리",
+          "startTime": "2022-02-23 05:00",
+          "endTime": "2022-02-23 08:00"
+        }, {
+          "leagueName": "ASK vs 꽃보다 잔디",
+          "startTime": "2022-02-23 08:00",
+          "endTime": "2022-02-23 11:00"
+        }, {
+          "leagueName": "댄스 동아리 vs 꽃보다 잔디",
+          "startTime": "2022-02-24 05:00",
+          "endTime": "2022-02-23 08:00"
+        }, {
+          "leagueName": "무관유죄 vs 보석함",
+          "startTime": "2022-02-24 08:00",
+          "endTime": "2022-02-23 11:00"
+        }, {
+          "leagueName": "무관유죄 vs 파이트클럽",
+          "startTime": "2022-02-25 05:00",
+          "endTime": "2022-02-23 08:00"
+        }, {
+          "leagueName": "보석함 vs 파이트클럽",
+          "startTime": "2022-02-25 08:00",
+          "endTime": "2022-02-23 11:00"
+        }
+      ]
+    }
+  ]
+}

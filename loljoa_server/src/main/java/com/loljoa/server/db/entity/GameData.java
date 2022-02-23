@@ -18,17 +18,10 @@ public class GameData {
     private Long gameId;
 
     private String title;
-    private UUID gameKey;
 
     @ManyToOne(targetEntity = League.class)
     private League league;
 
-    public GameData(Long gameId) {
-        this.gameId = gameId;
-    }
-
-    public GameData(String title, UUID gameKey) {
-        this.title = title;
-        this.gameKey = gameKey;
-    }
+    @OneToMany(mappedBy = "targetGame")
+    private List<BettingChoice> choices = new ArrayList<>();
 }

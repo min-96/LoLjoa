@@ -4,6 +4,10 @@ spring:
   application:
     name: LoLjoa-Server
 
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+
   jpa:
     database: postgresql
     show-sql: true
@@ -12,8 +16,8 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/loljoa
-    username: ladmin
+    url: jdbc:postgresql://localhost:5432/test
+    username: admin
     password: pass
 
   cache:

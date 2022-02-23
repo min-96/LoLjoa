@@ -39,7 +39,6 @@ public class Account {
     @OneToMany(mappedBy = "commenter")
     List<LeagueComment> leagueComments = new ArrayList<>();
 
-
     public Account(Long accountId) {
         this.accountId = accountId;
     }

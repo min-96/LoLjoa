@@ -10,8 +10,8 @@ public class BettingChoice {
     @GeneratedValue
     private Long choiceId;
 
-    @ManyToOne(targetEntity = GameData.class, cascade = CascadeType.REMOVE)
-    private GameData game;
+    @ManyToOne(targetEntity = GameData.class)
+    private GameData targetGame;
 
     @OneToMany(mappedBy = "choice", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
     private List<BettingState> bettingStates = new ArrayList<>();
